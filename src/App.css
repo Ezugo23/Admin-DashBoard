@@ -9,3 +9,194 @@ body{
   background-color: blue;
   color: white;
 }
+.custom-form {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+
+/* Form Group styles */
+.custom-form-group {
+  margin-bottom: 1rem;
+}
+
+/* Label styles */
+.custom-form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Input styles */
+.custom-input {
+  display: block;
+  width: 400%;
+  border: 0;
+  padding: 8px;
+  color: #333333;
+  box-shadow: 0 0 0 1px #d1d5db inset;
+  border-radius: 4px;
+  outline: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.custom-input::placeholder {
+  color: #9ca3af;
+}
+
+.custom-input:focus {
+  border-width: 2px;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.25) inset;
+}
+
+/* Button styles */
+.custom-button {
+  display: block;
+  margin: auto;
+  margin: 8px;
+  margin-top: 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #1e40af;
+}
+
+.custom-border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 12px;
+}
+
+.custom-space-y-10 {
+  margin-top: 40px; /* Adjust margin as needed */
+}
+
+.custom-flex {
+  display: flex;
+  align-items: center;
+}
+
+.custom-gap-x-2 {
+  gap: 0.5rem; /* Adjust gap as needed */
+}
+
+.custom-label {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.custom-radio {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px solid #ccc;
+  color: #4f46e5;
+  cursor: pointer;
+}
+
+.custom-inputs {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 0.375rem 0;
+  color: #333333;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 0.375rem;
+}
+
+/* Button 1 styles */
+.custom-button-1 {
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  background-color: #1e40af;
+  color: #ffffff;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+.custom-button-1:hover {
+  background-color:#2563eb;
+}
+
+/* Button 2 styles */
+.custom-button-2 {
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  background-color:#1e40af; /* Change colors as needed */
+  color: #ffffff;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+.custom-button-2:hover {
+  background-color: #2563eb;
+}
+.custom-label {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.custom {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 8px;
+  color: #333333;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 0.375rem;
+}
+.custom-space-y-12 {
+  margin-top: 48px; /* Adjust margin as needed */
+}
+
+.custom-border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 12px;
+}
+.input {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 8px;
+  resize: none;
+  color: #333333;
+  box-shadow: 0 0 0 1px #d1d5db inset;
+  border-radius: 4px;
+  outline: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.text {
+  width: 100%;
+  border: 0;
+  padding: 8px;
+  color: #333333;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 0.375rem;
+  margin-bottom: 1rem;
+  resize: none;
+}
+
+.custom-button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-top: 16px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #1e40af;
+}

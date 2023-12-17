@@ -1,5 +1,6 @@
 import Form from 'react-bootstrap/Form';
 import React from 'react'
+import '../App.css'
 export default function Account() {
   return(
     <>
@@ -17,7 +18,7 @@ export default function Account() {
                   id="last-name"
                   placeholder="Name"
                   autoComplete="family-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" style={{ paddingLeft: '10px' }}
+                  className=" input" style={{ paddingLeft: '10px' }}
                 />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -28,7 +29,7 @@ export default function Account() {
                   id="last-name"
                   placeholder="Phone Number"
                   autoComplete="family-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" style={{ paddingLeft: '10px' }}
+                  className=" input" style={{ paddingLeft: '10px' }}
                 />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -39,7 +40,7 @@ export default function Account() {
                   id="last-name"
                   placeholder="Email Address"
                   autoComplete="family-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" style={{ paddingLeft: '10px' }}
+                  className=" input" style={{ paddingLeft: '10px' }}
                 />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -51,7 +52,7 @@ export default function Account() {
                   placeholder="Address"
                   autoComplete="family-name"
                   rows="3" 
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" style={{ paddingLeft: '10px' }}
+                  className="input" style={{ paddingLeft: '10px' }}
                 />
       </Form.Group>
 
@@ -64,7 +65,7 @@ export default function Account() {
                   id="last-name"
                   placeholder="City"
                   autoComplete="family-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" style={{ paddingLeft: '10px' }}
+                  className="input" style={{ paddingLeft: '10px' }}
                 />
       </Form.Group>
       <Form.Group className="mb-3 ml-3" controlId="formBasicEmail">
@@ -75,7 +76,7 @@ export default function Account() {
                   id="last-name"
                   placeholder="State"
                   autoComplete="family-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" style={{ paddingLeft: '10px' }}
+                  className="input" style={{ paddingLeft: '10px' }}
                 />
         
       </Form.Group>
@@ -87,7 +88,7 @@ export default function Account() {
                   id="last-name"
                   placeholder="Postal Zip Code"
                   autoComplete="family-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-400 sm:text-sm sm:leading-6" style={{ paddingLeft: '10px' }}
+                  className="input" style={{ paddingLeft: '10px' }}
                 />
       </Form.Group>
       <div className='mx-30 col-lg-2'>

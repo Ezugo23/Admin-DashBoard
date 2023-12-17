@@ -5,6 +5,7 @@ import {
   BadgeDollarSign,
   MoreHorizontal,
 } from 'lucide-react';
+import '../App.css'
 export default function Setmenu() {
   const Menu = [
     {title: "Account Settings", icon:<SquareUserRound size={25}/>, href:"/Account"},
