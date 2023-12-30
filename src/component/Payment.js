@@ -19,7 +19,7 @@ export default function Account() {
                     <input id="push-everything" name="push-notifications" type="radio" class="custom-radio"/>
                     <label for="push-everything" class="custom-label">sales@gridgum.com</label>
                 </div>
-                <div class="custom-flex items-center gap-x-2 mb-10">
+                <div class="custom-flex items-center gap-x-2 mb-10 mt-3">
                     <label for="push-email" class="custom-label">Set as Primary</label>
                     <input id="push-email" name="push-notifications" type="radio" class="custom-radio"/>
                     <label for="push-email" class="custom-label">paypal@itechnology.ge</label>

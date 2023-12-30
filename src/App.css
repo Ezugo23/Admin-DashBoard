@@ -121,20 +121,20 @@ body{
   cursor: pointer;
 }
 .custom-button-1:hover {
-  background-color:#2563eb;
+  background-color:#2563eb ;
 }
 
 /* Button 2 styles */
 .custom-button-2 {
   font-weight: bold;
   padding: 0.75rem 2rem;
-  background-color:#1e40af; /* Change colors as needed */
+  background-color:#009688; 
   color: #ffffff;
   border-radius: 0.375rem;
   cursor: pointer;
 }
 .custom-button-2:hover {
-  background-color: #2563eb;
+  background-color: #4DB6AC;
 }
 .custom-label {
   display: block;
@@ -152,6 +152,7 @@ body{
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
   border-radius: 0.375rem;
 }
+.custom
 .custom-space-y-12 {
   margin-top: 48px; /* Adjust margin as needed */
 }
@@ -188,7 +189,7 @@ body{
   margin: auto;
   width: 100%;
   margin-top: 16px;
-  background-color: #2563eb;
+  background-color: #009688;
   color: #ffffff;
   font-weight: bold;
   padding: 8px 20px;
@@ -198,5 +199,13 @@ body{
 }
 
 .custom-button:hover {
-  background-color: #1e40af;
+  background-color: #4DB6AC;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="date"]{
+  cursor: pointer;
 }
