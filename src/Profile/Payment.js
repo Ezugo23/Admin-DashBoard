@@ -4,7 +4,7 @@ export default function Account() {
   return(
     <>
     <div style={{ display: 'flex', flexDirection: 'column' }}>
-       <div className='bg-white my-20 mx-50' style={{ width: '900px', height: '60%', right: '50px', border: '1px groove' }}>
+       <div className='bg-white flex-start ml-10' style={{ width: '820px', height: '60%', right: '50px', border: '1px groove' }}>
     <h2 className='font-bold mt-3 text-left mx-3'>PayPal</h2>
  
 <form>
@@ -48,7 +48,7 @@ export default function Account() {
 </div>
 
 {/*Credit Card*/}
-<div className='bg-white my-1 mx-300' style={{ width: '900px', height: '90%', right: '20px', border: '1px groove' }}>
+<div className='bg-white flex-start ml-10 mt-10' style={{ width: '820px', height: '90%', right: '20px', border: '1px groove' }}>
     <h2 className='font-bold mt-3 text-left mx-3'>Credit Card</h2>
     <form>
   <div className="space-y-10 mx-2">

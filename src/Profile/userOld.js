@@ -1,18 +1,17 @@
-
 import Form from 'react-bootstrap/Form';
 import React from 'react'
 import '../App.css'
 export default function User() {
   return(
     <>
-      <div className='bg-white my-20 mx-50'style={{ width: '900px', height: '87%', right: '20', border: '1px groove'}}>
+      <div className='bg-white flex-start ml-10 mt-10'style={{ width: '820px', height: '87%', right: '20', border: '1px groove'}}>
         <h3 className='font-bold mt-3 text-center'>Add/Edit Personal Information</h3>
       
      <div className='d-lg-flex'>
       <div className='ml-10 mr-20 mt-20 mb-auto'>
         
       <img
-              className=" imgProfileStyle  h-40 mx-auto mb-2 flex-lg items-center justify-center"
+              className=" imgProfileStyle  h-40 w-40 mx-auto mb-2 flex-lg items-center justify-center"
               src="http://bootdey.com/img/Content/avatar/avatar1.png"
               alt=""
             />

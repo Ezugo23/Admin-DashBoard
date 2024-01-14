@@ -1,0 +1,42 @@
+.tableflex{
+    display: flex;
+    gap: 2rem;
+}
+
+.tab{
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+}
+
+.tab th{
+    text-align: center;
+    padding: 0 0 0.5rem;
+}
+
+
+
+table .tr{
+    text-align: center;
+   border-radius: 0.5rem;
+   /* border-collapse: separate; */
+   margin: 1rem 0;
+    background-color: rgb(237, 237, 237);
+}
+
+table .tr td{
+   padding: 0 1rem;
+   border-bottom: 1rem solid white;
+}
+
+
+table .tr .tdr{
+    padding: 0 ;
+    margin: 0 1rem;
+    border-bottom: 1rem solid white;
+ }
+ 
+
+

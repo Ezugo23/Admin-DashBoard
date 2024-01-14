@@ -1,10 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body{
-  background-color: #D8D8D8;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .active{
   background-color: blue;
   color: white;
@@ -12,6 +14,23 @@ body{
 .custom-form {
   margin-right: 20px;
   margin-top: 10px;
+}
+
+.men :hover{
+  padding-left: 1rem;
+  background: #40C4FF;
+}
+
+.men :active{
+  padding-left: 1rem;
+  background: #051922;
+  color: white;
+}
+
+.men:visited{
+  padding-left: 1rem;
+  background: #40C4FF;
+  ;
 }
 
 
@@ -29,7 +48,7 @@ body{
 /* Input styles */
 .custom-input {
   display: block;
-  width: 400%;
+  width: 380%;
   border: 0;
   padding: 8px;
   color: #333333;
@@ -208,4 +227,121 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 input[type="date"]{
   cursor: pointer;
+}
+.left{
+  width: 30% !important;
+  height: 50%;
+}
+
+.yy .btn{
+  font-size: 10px;
+  color: #4DB6AC;
+  border: 1px solid #4DB6AC !important ;
+}
+
+th{
+  border: 0 !important;
+}
+
+.panda{
+  padding: 20px !important;
+}
+
+/* .yoyo{
+  margin-right: 750px;
+} */
+.yo{
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 30px;
+  /* border: 1px solid black; */
+  /* position: relative;/ */
+}
+.dd{
+  margin-left: 100px;
+  width: 800px;
+  height: 80vh;
+  border-radius: 10px;
+}
+.ggg{
+  padding-left: 100px;
+}
+.lo{
+  margin-left: 200px;
+}
+.idan{
+  margin-right: 100px;
+}
+/*Dash*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background-color:#f9f9f9;
+  /* background-color: red; */
+}
+
+
+
+
+
+.search-container {
+  
+  position: relative;
+  display: inline-block;
+}
+
+
+.input{
+  all: unset;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+
+.search-icon-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+/* Adjust the right distance as needed */
+}
+
+.search-icon {
+  
+  color: #888; /* Adjust the color as needed */
+  font-size: 15px; /* Adjust the font size as needed */
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.left-bar{
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.board{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+/*Users*/
+.bg{
+  background-color: rgb(238, 238, 238);
+  width: 80%;
+  float: right;
+  margin: 0 0 2rem 0;
+  padding:0 2rem;
 }

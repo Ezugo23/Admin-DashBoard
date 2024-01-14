@@ -1,0 +1,53 @@
+.navflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.navbg{
+    background-color: rgb(238, 238, 238);}
+
+.rightdiv{
+    display: flex;
+    gap: 1rem;
+}
+
+.leftdiv{
+    position: relative;
+    gap: 1rem;
+    display: flex;
+    /* float: right; */
+    top: 0;
+    justify-content: right;
+}
+
+.child{
+    position: absolute;
+    right: 9rem;
+    top: 0.5rem;
+    width: 1rem;
+}
+
+input{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0 1rem 0 1rem;
+}
+
+img{
+    width: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+    .child{
+        position: absolute;
+        right: 9.5rem;
+        top: 0.1rem;
+        width: 2rem;
+    }
+
+    .navflex{
+        border-bottom: 1px solid black;
+    }
+}

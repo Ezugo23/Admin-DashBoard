@@ -1,0 +1,116 @@
+body{
+    height: 100vh;
+}
+.sidediv{
+    width: 22rem;
+    gap: 5rem; 
+}
+
+.Editdiv{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 0 0 5rem 0;
+}
+
+.imgw{
+    width: 1rem;
+    margin-right: 1rem;
+}
+
+.bottomsidedivimg{
+    width: 100%;
+}
+
+.bottomsidedivsign{
+    width: 100%;
+    justify-content: center;
+
+}
+
+.bottomsidedivchangephoto{
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #F8B602;
+    justify-content: center;
+    
+}
+
+.bottomsidedivsavesign{
+    text-align: center;
+    width: 100%;
+    margin: 1.2rem 0 0 0;
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    background: #4DB6AC;
+    justify-content: center;
+    
+}
+
+.bottomsidediv{
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem 0 0 0;
+    background-color: white;
+    width: 20rem;
+   
+}
+
+.bottomsidediv2{
+    padding: 0 5rem;
+}
+
+.bottomsidediv3{
+    padding: 0 5rem;
+}
+
+
+
+.seconddiv{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.select{
+    border: solid black 1px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.input{
+    border: solid black 1px;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.label{
+    padding: 0.9rem 0;
+}
+
+.btndiv{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.btn1{
+    padding: 0.5rem 3rem;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.btn2{
+    padding: 0.5rem 3rem;
+    border: none;
+    color: white;
+    background: #4DB6AC;
+    border-radius: 0.5rem;
+}

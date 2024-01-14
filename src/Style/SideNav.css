@@ -1,0 +1,59 @@
+.topsidehead{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.topsideimg{
+    width: 5rem;
+    border-radius: 4rem;
+}
+
+.topsidediv{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: white;
+    width: 20rem;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link p:hover{
+    padding-left: 1rem;
+    background: #40C4FF;
+}
+
+.link p:active{
+    padding-left: 1rem;
+    background: #051922;
+    color: white;
+}
+
+.link p:visited{
+    padding-left: 1rem;
+    background: #40C4FF;
+    ;
+}
+
+.link p:link{
+    padding-left: 1rem;
+    background: #40C4FF;
+    ;
+}
+
+.linkpara{
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+}
+
+.text{
+    font-weight: bolder;
+}

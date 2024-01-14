@@ -6,7 +6,9 @@ import {
   MoreHorizontal,
 } from 'lucide-react';
 import '../App.css'
+import {Link, Outlet} from 'react-router-dom'
 export default function Setmenu() {
+
   const Menu = [
     {title: "Account Settings", icon:<SquareUserRound size={25}/>, href:"/Account"},
     {title: "Personal Information", icon:<UserCheck2Icon size={25}/>, href:"/User"},
@@ -15,8 +17,8 @@ export default function Setmenu() {
   ]
   return(
     <>
-    <div className='h-90 mt-20 mx-10'>
-      <nav className='mr-3 ml-20 flex-col bg-white border-r shadow-sm' style={{ width: '400px', height: '350px', border: '1px groove'}}>
+    <div className=''>
+      <nav className='mr-25 flex-col bg-white border-r shadow-sm mb-8' style={{ width: '400px', height: '350px', border: '1px groove'}}>
         <div className='p-3 flex boder-t'>
         <img
               className=" imgProfileStyle  h-14 w-12 rounded-full border-0.1"
@@ -34,19 +36,20 @@ export default function Setmenu() {
               </div>
             </div>
         </div>
-        <ul className='pt-3'>
+        <ul className='pt-3 men'>
           {Menu.map((menu, index)=>(
             <li key={index} 
-            className={'text-bold-500 text-black flex gap-x-10 cursor-pointer p-2 pl-2 hover:bg-blue-300 rounded-md'}>
-               <a href={menu.href} className="flex gap-x-3 mr-5 text-black" style={{textDecoration:'none'}} activeClassName="active">
+            className={' text-bold-500 text-black flex gap-x-10 cursor-pointer p-2 pl-2 hover:bg-blue-300 pl-4 rounded-md'}>
+               <Link to={menu.href} className="flex gap-x-3 mr-5 text-black" style={{textDecoration:'none'}}>
                {menu.icon}
                {menu.title}
-               </a>
+               </Link>
             </li>
           ))}
         </ul>
       </nav>
     </div>
+   <Outlet/>
 </>
 )
 }

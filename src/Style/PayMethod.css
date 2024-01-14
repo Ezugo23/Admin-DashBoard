@@ -1,0 +1,25 @@
+.paymentdiv{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* margin-top: 2rem; */
+}
+
+.spann{
+    width: 10rem;
+    border: none;
+    background: #4DB6AC;
+    padding: 1rem;
+    color:white;
+    border-radius: 0.5rem;
+} 
+
+.butto{
+    width: 10rem;
+    border: none;
+    background: #3B5998;
+    color:white;
+    border-radius: 0.5rem;
+
+}
+

@@ -1,0 +1,23 @@
+/* .lastpage{
+    display: flex;
+    align-items: center;
+    width: 100%;
+} */
+
+.ttttt th, .ttttt td{
+    border: 1px solid black;
+    padding:  0.3rem;
+    
+    text-align: center;
+}
+
+table th tr{
+    border-radius: 0.5rem;
+}
+
+.ttttt tr:nth-child(even){background-color: #c8c8c8;}
+
+.flexer{
+    display: flex;
+    gap: 2rem;
+}

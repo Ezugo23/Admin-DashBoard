@@ -1,0 +1,23 @@
+.Editpass{
+    display: flex;
+    gap: 2rem;
+}
+
+.pass{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.input{
+    width: 100%;
+}
+
+.tbn{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    background: #4DB6AC;
+    margin: 1.5rem 0;
+    color: white;
+}
